@@ -1,0 +1,17 @@
+header {
+    font-size: large;
+    font-weight: 600;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: floralwhite;
+    background-color: darkblue;
+    text-align: center;
+    padding: 3%;
+
+}
+.nav-link_About {
+    background-color: lightblue;
+    height: 300px;
+    width: 450px;
+    padding: 0%;
+    position: absolute;
+}
