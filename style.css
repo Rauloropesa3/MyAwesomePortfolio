@@ -6,12 +6,3 @@ header {
     background-color: darkblue;
     text-align: center;
     padding: 3%;
-
-}
-.nav-link_About {
-    background-color: lightblue;
-    height: 300px;
-    width: 450px;
-    padding: 0%;
-    position: absolute;
-}

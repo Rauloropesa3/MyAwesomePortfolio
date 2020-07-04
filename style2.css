@@ -1,0 +1,61 @@
+/* about page */
+body {
+    background-color: dodgerblue;
+}
+
+ /* about page */
+section {
+    font-size: large;
+    font-weight: 600;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:white;
+}
+
+ /* about page */
+.he1{
+    margin-bottom: 0px;
+    margin-right: 50%;
+    background-color: lawngreen;
+}
+
+/* about page */
+.he2{
+    font-size: large;
+    font-weight: 600;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: slateblue;
+    background-color: white;
+    padding: 0%;
+}
+
+/* about page */
+.hello {
+    margin: 5%;
+    background-color:white;
+    padding: 10px;
+    height: 270px;
+    width: 360px;
+}
+
+/* about page */
+.floatleft {
+    margin-right: 10px;
+    height: 100px;
+    width: 150px;
+    float: left;
+}
+
+/* about page */
+.nav-link{
+    margin: 0px;
+    background-color: fuchsia;
+    text-align: right;
+    color: dodgerblue
+}
+ul{
+    nav justify-content: end;
+}
+   
+
+
+
