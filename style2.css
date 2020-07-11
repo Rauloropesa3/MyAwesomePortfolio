@@ -1,61 +1,23 @@
-/* about page */
 body {
-    background-color: dodgerblue;
+    background-color: skyblue;
 }
-
- /* about page */
-section {
-    font-size: large;
-    font-weight: 600;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color:white;
+.floatleft{
+    height: 150px;
+    width: 200px;
 }
-
- /* about page */
-.he1{
-    margin-bottom: 0px;
-    margin-right: 50%;
-    background-color: lawngreen;
-}
-
-/* about page */
-.he2{
-    font-size: large;
-    font-weight: 600;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: slateblue;
+.row1 .col-sm-6{
+    margin-top: 30px;
+    margin-left: 30px;
     background-color: white;
-    padding: 0%;
+    height: 300px;
+    width: 400px;
 }
 
-/* about page */
-.hello {
-    margin: 5%;
-    background-color:white;
-    padding: 10px;
-    height: 270px;
-    width: 360px;
+img {
+    margin-top: 15px;
 }
 
-/* about page */
-.floatleft {
-    margin-right: 10px;
-    height: 100px;
-    width: 150px;
-    float: left;
+p {
+    font-family: cursive;
+    font-weight: 400;
 }
-
-/* about page */
-.nav-link{
-    margin: 0px;
-    background-color: fuchsia;
-    text-align: right;
-    color: dodgerblue
-}
-ul{
-    nav justify-content: end;
-}
-   
-
-
-

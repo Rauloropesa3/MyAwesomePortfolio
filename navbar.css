@@ -1,0 +1,19 @@
+.row{
+    background-color:dodgerblue;
+}
+.nav-link {
+    color: white;
+    padding-inline-end: 10px;
+    padding-top: 15%;
+}
+header {
+    font-size: large;
+    font-weight: 600;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: floralwhite;
+    text-align: center;
+    padding: 3%;
+}
+.col-2 {
+    background-color: midnightblue;
+    }
