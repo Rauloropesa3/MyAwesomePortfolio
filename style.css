@@ -148,9 +148,6 @@ ul li {
         
     
     }
-    .container{
-        
-    }
         
 .card{
         height: 200px;
@@ -241,7 +238,6 @@ ul li {
             transform: translateX(0px);
         }
        
-        }
     .card-img-top{
         height: 100%;
         width: 100%;
