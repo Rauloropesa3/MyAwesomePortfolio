@@ -1,12 +1,15 @@
+@media screen and (max-width:980px){
+ 
 .navbar-expand-lg {
     width: 100%;
     padding: 0;
 }
+
 #navbar-brand {
     background-color: teal;
     width: 30%;
     color: white;
-    margin-left: 10px;
+    margin-left: 30px;
     padding: 10px;
     font-size: 30px;
     text-align: center;
@@ -16,80 +19,57 @@
     text-align: right;
     display: inline-block;
     width: 50%;
+    margin-right: 20px;
     padding: 0px;
+    font-size: 12px;
+    font-weight: 600;
 }
 
 ul li {
     display: inline-block;
     padding:1.5%
+    
 }
-@media screen and (max-width:980px){
-    
-    .navbar-expand-lg {
-        width: 100%;
-        padding: 0;
-    }
-    #navbar-brand {
-        background-color: teal;
-        width: 30%;
-        color: white;
-        margin-left: 30px;
-        padding: 10px;
-        font-size: 30px;
-        text-align: center;
-    }
 
-    .navbar-nav {
-        text-align: right;
-        display: inline-block;
-        width: 50%;
-        margin-right: 20px;
-        padding: 0px;
-        font-size: 12px;
-        font-weight: 600;
-    }
+.section{
+    background-color: lightgrey;
+    padding: 20px;
+    height: 100%;
+    width: 100%;
+}    
 
-    ul li {
-        display: inline-block;
-        padding:1.5%
-    
-        }
-    .section{
-        background-color: lightgrey;
-        padding: 20px;
-        height: 100%;
-        width: 100%;
-    }    
-    .portfolio{
-        font-family: serif;
-        font-weight: 900;
-        font-size: 40px;
-        color: teal;
-        padding: 20px;
-        margin: 10px;
-        background-color: white;
-        width: 75%;
-        height: 800px;
-    }
-    hr {
-        color: red;
-    }
-    .card {
-        height: 200px;
-        width: 100%;
-    }
-    .monkey{
-        width: 50%;
-        transform: translate(-12px);
-    }
+.portfolio{
+    font-family: serif;
+    font-weight: 900;
+    font-size: 40px;
+    color: teal;
+    padding: 20px;
+    margin: 10px;
+    background-color: white;
+    width: 75%;
+    height: 800px;
+}
+
+hr {
+    color: red;
+}
+
+.card {
+    height: 200px;
+    width: 100%;
+}
+
+.monkey{
+    width: 100%;
+    transform: translate(0px);
+}
+
 .card-img-top{
     height: 100%;
     width: 100%;
     position: absolute;
-    
-    
-    
 }
+
 .card-text{
     position: absolute;
     background-color: teal;
@@ -103,83 +83,91 @@ ul li {
     transform: translateX(130px);
     transform: translateY(130px);
 }
+
 footer{
     background-color: slategray;
     color: snow;
     padding: 7px;
     text-align: center;
+    }
+
 }
 
     @media screen and (max-width:768px){
-    
-        .navbar-expand-lg {
-            width: 100%;
-            padding: 0;
-        }
-        #navbar-brand {
-            font-family: serif;
-            font-weight: 700;
-            background-color: teal;
-            width: 30%;
-            color: white;
-            margin-left: 10px;
-            padding: 10px;
-            font-size: 30px;
-            text-align: center;
+   
+.navbar-expand-lg {
+    width: 100%;
+    padding: 0;
+    }
+
+#navbar-brand {
+        font-family: serif;
+        font-weight: 700;
+        background-color: teal;
+        width: 30%;
+        color: white;
+        margin-left: 10px;
+        padding: 10px;
+        font-size: 30px;
+        text-align: center;
             
-        }
+    }
     
-        .navbar-nav {
-            text-align: right;
-            width: 50%;
-            padding: 0px;
+.navbar-nav {
+        text-align: right;
+        width: 50%;
+        padding: 0px;
             
-        }
+    }
 
     
-        ul li {
-            display: inline-block;
-            padding:1.5%
-        }
-        .section{
-            background-color: lightgrey;
-            padding: 20px;
-            width: 100%;
-            height: 100%;
-            margin: 0px
-        }    
-        .portfolio{
-            font-family: serif;
-            font-weight: 900;
-            font-size: 40px;
-            color: teal;
-            padding: 20px;
-            margin: 0px;
-            background-color: white;
-            width: 100%;
-            height: 1300px;
-        }
+ul li {
+        display: inline-block;
+        padding:1.5%
+    }
         
-        .card{
-            height: 200px;
-            width: 50%;
-            
+.section{
+        background-color: lightgrey;
+        padding: 20px;
+        width: 100%;
+        height: 100%;
+        margin: 0px
+    }    
+        
+.portfolio{
+        font-family: serif;
+        font-weight: 900;
+        font-size: 40px;
+        color: teal;
+        padding: 20px;
+        margin: 0px;
+        background-color: white;
+        width: 100%;
+        height: 900px;
+        display: inline-block;
+        
     
-        }
-        .monkey{
-            width: 50%;
-            position: absolute;
-           
+    }
+    .container{
+        
+    }
+        
+.card{
+        height: 200px;
+        width: 45%;   
+       
+    }
 
-        }
-    .card-img-top{
+.card-img-top{
         height: 100%;
         width: 100%;
         position: absolute;
        
         
-        }
-    .card-text{
+        
+    }
+    
+.card-text{
         position: absolute;
         background-color: teal;
         color: ivory;
@@ -246,6 +234,13 @@ footer{
             height: 200px;
             width: 100%;
     
+        }
+        .monkey{
+            margin: 0px;
+            width: 92%;
+            transform: translateX(0px);
+        }
+       
         }
     .card-img-top{
         height: 100%;
